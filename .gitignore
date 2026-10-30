@@ -1,0 +1,32 @@
+# ---------- Keil MDK build output ----------
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.htm
+*.lnp
+*.dep
+*.iex
+*.sct
+*_sct.Bak
+*.uvguix.*
+*.bak
+*.lst
+*.__i
+Objects/
+Listings/
+
+# ---------- ESP-IDF build output ----------
+Uart_wifi_project/build/
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# ---------- OS / editor ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log
