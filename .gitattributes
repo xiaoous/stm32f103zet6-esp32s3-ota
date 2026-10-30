@@ -1,0 +1,13 @@
+# 换行符策略
+#
+# 本仓库混用两种换行：
+#   - Markdown（README / docs）由脚本生成，用 LF
+#   - Keil / CubeMX 工程与 STM32 源码（GBK 编码）用 CRLF
+#
+# Windows 的 git 默认 core.autocrlf=true，会对 LF 文件反复警告
+# "LF will be replaced by CRLF"。用下面的规则把 Markdown 钉死为 LF。
+#
+# 注意：不要给 *.c / *.h 加规则。那些文件是 GBK 编码 + CRLF，
+# 一旦纳入 EOL 规范化会导致全库内容被重写。
+
+*.md text eol=lf

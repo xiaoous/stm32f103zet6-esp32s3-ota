@@ -26,6 +26,17 @@
 
 ---
 
+
+
+## 演示视频
+
+GitHub 的 README 不渲染 `<video>` 标签（会被安全策略过滤掉），所以这里用链接式：点开后在 GitHub 文件页播放，或直接下载。
+
+| 演示 | 时长 | 大小 | 观看 |
+|---|---|---|---|
+| OTA 下载与复位 | 10.5 s | 0.88 MB | [▶ demo-ota-reset.mp4](demo-ota-reset.mp4) |
+| 按键安装 | 33.1 s | 2.88 MB | [▶ demo-ota-key-install.mp4](demo-ota-key-install.mp4) |
+
 ## 1. 为什么 app 不能自己刷自己
 
 这是整个设计的地基，也是最容易踩错的地方。
